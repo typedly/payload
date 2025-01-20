@@ -5,7 +5,7 @@ import { Payload } from "./payload.interface";
  * @export
  * @interface ActionPayload
  * @template [Data=unknown] The type of data related to the action.
- * @template {string} [Status=string] 
+ * @template {string} [Status=string] The type of action `status`. Defaults to, `string`.
  * @extends {Payload<Data>}
  */
 export interface ActionPayload<
