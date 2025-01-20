@@ -7,9 +7,9 @@
 export interface Payload<Data = unknown> {
   /**
    * @description General data of generic type variable `Data`.
-   * @type {Data}
+   * @type {?Data}
    */
-  data: Data;
+  data?: Data;
   
   /**
    * @description Additional metadata of `Record` type.
