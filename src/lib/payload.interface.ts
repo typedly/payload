@@ -1,18 +1,20 @@
 /**
- * @description A generic payload interface for flexibility.
+ * @description A generic payload interface.
  * @export
  * @interface Payload
- * @template [Data=unknown] The type of the payload data.
+ * @template [Data=unknown] The type of the payload data. Defaults to, `unknown`.
  */
 export interface Payload<Data = unknown> {
   /**
    * @description General data of generic type variable `Data`.
-   * @type {Data}
+   * Example: 
+   * @type {?Data}
    */
-  data: Data;
+  data?: Data;
   
   /**
-   * @description Additional metadata of `Record` type.
+   * @description The descriptive information about the `data` of `Record` type.
+   * Example: 
    * @type {?Record<string, any>}
    */
   meta?: Record<string, any>;
