@@ -63,7 +63,7 @@ import {
 
 Your contributions are **valued**! If you'd like to contribute, please feel **free** to submit a pull request. Help is always appreciated.
 
-### Code of Conduct
+## Code of Conduct
 
 By participating in this project, you agree to follow **[Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)**.
 
