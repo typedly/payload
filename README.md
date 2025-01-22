@@ -9,38 +9,44 @@
 
 ## typedly/payload
 
-A TypeScript type definitions package for payload data structures.
-
 <!-- npm badge -->
 [![npm version][typedly-npm-badge-svg]][typedly-npm-badge]
 [![GitHub issues][typedly-badge-issues]][typedly-issues]
 [![GitHub license][typedly-badge-license]][typedly-license]
 
-<br>
+**Version:** v2.0.0
+
+A TypeScript type definitions package for payload data structures.
+
+---
 
 ## Table of contents
 
-* [Installation](#installation)
-* [Api](#api)
-  * ActionPayload
-  * ErrorPayload
-  * Payload
-  * RequestPayload
-* [Git](#git)
-  * [Commit](#commit)
-  * [Versioning](#versioning)
-* [License](#license)
+- [Installation](#installation)
+- [Api](#api)
+  - [Interfaces](#interfaces)
+    - ActionPayload
+    - ErrorPayload
+    - Payload
+    - RequestPayload
+- [Contributing](#contributing)
+- [Code of Conduct](code-of-conduct)
+- [Git](#git)
+  - [Commit](#commit)
+  - [Versioning](#versioning)
+- [License](#license)
 
 ## Installation
 
 ```bash
-npm install @typedly/payload
+npm install @typedly/payload --save-peer
 ```
 
 ## Api
 
 ```typescript
 import {
+  // Interfaces.
   ActionPayload,
   ErrorPayload,
   Payload,
@@ -48,13 +54,28 @@ import {
 } from '@typedly/payload';
 ```
 
+### Interfaces
+
+- [`ActionPayload`](https://github.com/typedly/payload/blob/main/src/lib/action-payload.interface.ts)
+- [`ErrorPayload`](https://github.com/typedly/payload/blob/main/src/lib/error-payload.interface.ts)
+- [`Payload`](https://github.com/typedly/payload/blob/main/src/lib/payload.interface.ts)
+- [`RequestPayload`](https://github.com/typedly/payload/blob/main/src/lib/request-payload.interface.ts)
+
+## Contributing
+
+Your contributions are **valued**! If you'd like to contribute, please feel **free** to submit a pull request. Help is always appreciated.
+
+### Code of Conduct
+
+By participating in this project, you agree to follow **[Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/)**.
+
 ## GIT
 
 ### Commit
 
-* [AngularJS Git Commit Message Conventions][git-commit-angular]
-* [Karma Git Commit Msg][git-commit-karma]
-* [Conventional Commits][git-commit-conventional]
+- [AngularJS Git Commit Message Conventions][git-commit-angular]
+- [Karma Git Commit Msg][git-commit-karma]
+- [Conventional Commits][git-commit-conventional]
 
 ### Versioning
 
@@ -62,9 +83,9 @@ import {
 
 **Given a version number MAJOR.MINOR.PATCH, increment the:**
 
-* MAJOR version when you make incompatible API changes,
-* MINOR version when you add functionality in a backwards-compatible manner, and
-* PATCH version when you make backwards-compatible bug fixes.
+- MAJOR version when you make incompatible API changes,
+- MINOR version when you add functionality in a backwards-compatible manner, and
+- PATCH version when you make backwards-compatible bug fixes.
 
 Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
 
