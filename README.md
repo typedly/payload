@@ -18,8 +18,6 @@
 
 A TypeScript type definitions package for payload data structures.
 
----
-
 ## Table of contents
 
 - [Installation](#installation)
